@@ -279,5 +279,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: ["Yolo Aventura"]
   },
+  "HbJt7Kig5Xg": {
+    desc: "Programa del día después de la semifinal, con Argentina ya en la final y Francia como rival tras eliminar a Marruecos. Se palpita el partido y se debate a quién hay que “marcar fuerte” (mbappé, griezmann), si conviene tener la pelota o cedérsela, e incluso el rumor del regreso de Benzema. El tramo más caliente es la respuesta a la declaración de Mbappé sobre que “el fútbol sudamericano es inferior”, que deriva en un picante alegato y en el juego de armar un combinado Sudamérica vs Europa. También hay una larga reflexión sobre enseñarles a los juveniles a usar las redes con responsabilidad.",
+    temas: ["Camino a la final vs Francia", "A quién marcar: mbappé y griezmann", "La polémica con Mbappé", "Sudamérica vs Europa", "Redes sociales y los juveniles"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "G2HGVl6mdEA": {
+    desc: "Programa a dos días de la final, atravesado por la desesperación de seguir sin entradas: la bronca con la reventa y sus precios exorbitantes, el reclamo a la AFA y la espera por la venta oficial de FIFA. Hay un delirante debate (en chiste) sobre si “sobornarían al árbitro” para ganar la final, la historia del torneo de leyendas que cubrió Luquitas (con la señora gritando “Roberto Carlos” sin parar) y un larguísimo repaso de jugadores “random” que pasaron por el fútbol argentino. Cierra con una charla sobre cómo se vive y se analiza un partido entre la pasión de hincha y el laburo de comentarista.",
+    temas: ["La desesperación por las entradas", "¿Sobornarían al árbitro?", "El torneo de leyendas", "Jugadores “random” del fútbol argentino", "Pasión vs análisis"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
