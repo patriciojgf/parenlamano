@@ -237,5 +237,11 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "aJYkLq9ton4": {
+    desc: "Programa del día después de la clasificación, sin partido de Argentina, con el grupo más relajado mirando cómo se cierran las zonas (Alemania afuera) y cómo se abre el cuadro. Hay un debate futbolero a fondo —Brasil como gran “Cuco”, el cara a cara Argentina-Brasil y hasta un ranking de los jugadores más “facheros” de la historia—. El invitado del día es el futbolista Renzo Saravia, que cuenta su experiencia en la MLS, en el fútbol brasileño y en la selección de Armenia. Entre medio, el “superpoder” de Roberto de vomitar cuando se siente mal y otra vuelta del chivo del “viaje de la melva”.",
+    temas: ["Se abre el cuadro", "Debate Argentina-Brasil", "Los más “facheros” del fútbol", "La MLS y el fútbol brasileño", "El “viaje de la melva”"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Renzo Saravia"]
+  },
   /*INSERT*/
 };
