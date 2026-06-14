@@ -225,5 +225,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "nKkX9r_lANE": {
+    desc: "Día de resaca tras la derrota con Arabia, con el grupo procesando el golpe y palpitando la reacción ante México. Mientras Luquitas hace el programa, Alfredo cuenta su maratón de cuatro estadios en un día junto a Maslatón (Marruecos-Croacia, Alemania-Japón, España-Costa Rica, Bélgica-Canadá) y la credencial que lo deja moverse por toda la cancha. Se hacen las cuentas para clasificar, hay observaciones de la cultura local (el casco histórico, el souk, las vallas que te hacen caminar kilómetros) y continúa la saga de la “planchita para el Rober”. Cierra con la idea, medio en broma, de tener que volverse con la valija “sin mirar atrás” si todo sale mal.",
+    temas: ["Resaca post-Arabia", "La maratón de estadios de Alfredo", "Las cuentas para clasificar", "Cultura local y caminatas", "La planchita para el Rober"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "7scSAXS1xZA": {
+    desc: "Programa hecho a pura trasnoche y cansancio, repasando el día previo a Argentina-México. El momento más recordado es la historia del “falso lisiado”: para conseguir entradas entraron al partido con Alfredo empujando a Luquitas en silla de ruedas, hasta que el “rengo” se paró y caminó. También se cuentan el calvario de los Uber, la odisea de Alfredo con su mochila y su pasaporte perdidos en el estadio y el delirante chivo del “viaje de la melva” (el salame de contrabando). En lo futbolístico, las cuentas para clasificar y un análisis sobre la presión que van a sentir los jugadores ante México.",
+    temas: ["La historia del “falso lisiado”", "El calvario de los Uber", "La mochila perdida de Alfredo", "El “viaje de la melva”", "La presión ante México"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
