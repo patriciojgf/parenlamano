@@ -29,8 +29,10 @@ window.PLM_EVENT = (function () {
       "--secondary":"#75AADB", "--secondary-deep":"#3E7CB8",
       "--paper":"#FFF8EC", "--line":"rgba(232,195,106,.45)"
     },
-    default: "hibrido",
-    options: [ { id:"album", label:"Álbum" }, { id:"hibrido", label:"Qatar + Álbum" } ]
+    // Qatar clásico (tema base bordó/dorado). Los temas "album" e "hibrido"
+    // siguen definidos en assets/themes.css pero no se exponen al usuario.
+    default: "",
+    options: []
   };
 
   const home = "Argentina";

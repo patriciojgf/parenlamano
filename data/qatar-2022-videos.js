@@ -99,5 +99,53 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "zCRm4d5lQw4": {
+    desc: "Día de lujo arriba de un crucero-hotel: el grupo recorre el barco con sauna, casino, restaurantes, pastelería, peluquería y hasta una pista de karting, donde se mandan unas carreras —con Alfredo aburriéndose y peleando con el karting—. Entre chistes, Luquitas “felicita al capitalismo” y fantasea con comprarse uno de estos para pasear por el Tigre cuando vuelva. El clima es de joda total en plena previa de octavos.",
+    temas: ["Crucero-hotel de lujo", "Carreras de karting", "Chistes sobre el capitalismo", "Previa relajada"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "a5r3N-oN0nc": {
+    desc: "Previa y festejo de los cuartos ante Países Bajos. Arranca con los pronósticos del grupo —Germán vaticina un 2-0 y se manda predicciones del resto de los partidos— y los clásicos relojeos a Roberto, cada vez más metido en hacer contenido y “vivos”. Después van al Lusail y lo sufren como nunca: el partidazo, el empate de Holanda sobre la hora y la clasificación por penales con el Dibu. Termina con la euforia del pase a semifinales, el llanto y el “quiero la tercera” a flor de piel.",
+    temas: ["Pronósticos del grupo", "Cuartos vs Países Bajos", "Definición por penales", "Festejo y emoción"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "uWe6YFC2aVU": {
+    desc: "Día de la semifinal contra Croacia, con Luquitas peleando otra vez contra los mocos y el miedo a enfermarse antes de la final. El grupo debate la formación (Paredes o Di María) y se engancha en un repaso de históricos de la Selección a pura joda. De fondo, la anécdota de unos famosos parando en un Sheraton mientras ellos “no atinaban a darle ni un pan con manteca”, y Roberto ya full influencer haciendo vivos. Cierran en el Lusail viendo el 3-0 que mete a Argentina en la final del mundo.",
+    temas: ["Previa de la semifinal", "Debate de la formación", "Semifinal vs Croacia", "Camino a la final"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "ncW22cFvJmQ": {
+    desc: "El día más esperado: la final del mundo. Antes del partido, última recorrida por las “chucherías del Mundial” —la discusión eterna por la copita souvenir de 5 dólares— y otra vuelta a los chistes del costo de despachar la valija. Después, el ingreso al Lusail (zona VIP), el agradecimiento a la gente por bancar el viaje y la consagración: Argentina campeona del mundo. Cierra con la última y caótica misión en AFA Estudio, saludando a los jugadores campeones, y la emoción desbordada del grupo.",
+    temas: ["Día de la final", "Últimas compras y souvenirs", "La consagración", "AFA Estudio con los campeones"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "dkknsdXeV5Q": {
+    desc: "Capítulo del reencuentro con “palito” Bilbao —el contacto que les destraba todo— entre quejas por lo peligrosos que manejan los Uber del país. Recorren la costanera del Lusail y el paseo que simula a Francia para los fans, con pantallas y luces por todos lados, y Alfredo se manda su monólogo de que “juntarse con los seres queridos y una Coca-Cola es magia de verdad”. Se cuela el balance de fin de año y la fantasía de quedarse más tiempo. El alivio del día: por fin aparecen las entradas para la final.",
+    temas: ["Reencuentro con palito Bilbao", "Costanera del Lusail", "Paseo de los fans", "Las entradas para la final"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "lnQpf1etTt8": {
+    desc: "Día de playa y descanso. Negocian la entrada a un balneario (el “B12”), regateando de 100 a 50 dólares, y miden el “desempeño” de Germán en la orilla del Golfo Pérsico. En el camino aparecen la policía montada con las crines trenzadas por los turistas, los rezos musulmanes, un mercadito típico y el clásico Alfredo separándose del grupo porque “no los banca más”. Mucho color local y un día redondo —“3 puntos para el Big Big Rob”— que cierran con 8 de puntaje.",
+    temas: ["Día de playa", "Regateo en el balneario", "Color local y rezos", "Policía montada"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "AkkVZ9C44Cs": {
+    desc: "Arranca con el debate de cuándo volver (¿19, 20 o 21?) y si hace falta un programa el lunes, con el grito de fe “vamos a salir campeones del mundo”. El corazón del video es Roberto: se queda solo, filmándose selfies, convencido de que el grupo lo quiere “rajar” porque “el miming creció mucho”, y suelta un monólogo dolido y desopilante. De fondo, otra vuelta de shopping de marcas (Gucci, H&M) que termina con la estafa del título: diez vendedores encima y la sensación de que “los habían cagado”.",
+    temas: ["Cuándo volver y el programa", "El monólogo de Roberto", "Shopping de marcas", "La estafa del día"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "l_dmnDb0dwg": {
+    desc: "Episodio de convivencia pura. Estalla la guerra por la limpieza de la casa —ya “digna de ser limpiada”—, con Germán denunciado y Alfredo que pierde el vocabulario cuando se pelea. El tópico central es el insoportable olor a patas de Germán, que deriva en la apuesta que da nombre al video y en pedirle ayuda a Romina, la pareja de Luquitas, para que mande talco. En el medio, un larguísimo y filoso debate sobre cuáles son las selecciones “más grandes” del mundo, y el cierre con Roberto agradeciendo a la gente por creer en sus “premoniciones”.",
+    temas: ["Guerra por la limpieza", "El olor a patas de Germán", "Las selecciones “más grandes”", "Monólogo de Roberto"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
