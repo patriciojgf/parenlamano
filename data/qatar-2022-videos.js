@@ -75,5 +75,29 @@ window.PLM_VIDEOS = {
     con: [],
     invitados: []
   },
+  "anvVCkBLXVQ": {
+    desc: "Día de actividades por separado, con Luquitas cada vez más afónico y enfermo pero feliz por el triunfo ante México. A la mañana va a ver Japón-Costa Rica y cuenta el bondi de la noche anterior, cuando Roberto casi se agarra a trompadas con un mexicano por el humo del cigarrillo. A la tarde, la recordada excursión al desierto con Alfredo y Germán: el chofer perfumado, las dunas, el borde con Arabia Saudita y el sandboard, con Germán perdiéndose entre las arenas. Después cubre el recital de Ciro para FIFA Plus y participa del stream de AFA Estudio con Seba Varela y Javier Lanza, esperando que baje algún jugador de la Selección.",
+    temas: ["Día separados", "Japón-Costa Rica", "Excursión al desierto", "Recital de Ciro", "Stream de AFA Estudio"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Ciro Martínez"]
+  },
+  "WsirK_ee6mo": {
+    desc: "Con la voz por el piso y la gripe instalada en todo el grupo, Luquitas arma el programa y se va de paseo. Predice con Alfredo las formaciones de Brasil y Uruguay, descubren la insólita pista de esquí dentro del shopping de Doha y pasan por la NBA Store —territorio de Germán, que está en cama. Aparece otra vez la búsqueda de la “planchita para el Rober” y una compra de supermercado con comida congelada, fontina y ramen. Cierran yendo a ver Portugal-Uruguay, declarándose “uruguayos de alma”, entre quejas por los 5 km que hay que caminar desde el Uber hasta cada estadio.",
+    temas: ["La gripe del grupo", "Pista de esquí en el shopping", "NBA Store", "Portugal-Uruguay", "Las caminatas eternas"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "HmpEZjITupA": {
+    desc: "Día de entrevistas y compras. Luquitas y Alfredo van a las oficinas de Adidas a charlar con David Villa, que recuerda que España también arrancó perdiendo en 2010 antes de salir campeón y habla del fenómeno del streaming de Luis Enrique. Antes, el desastre doméstico del día: Luquitas reventó el salero sobre los fideos y hubo que tirar todo. Después graban con Juan Pablo Varsky para FIFA (“12 años después”) y vuelven al supermercado, donde Roberto, el “Big Big Rob”, se descontrola comprando carne, patitas y de todo. Cierra yendo a ver Irán-Estados Unidos.",
+    temas: ["Entrevista a David Villa", "El accidente del salero", "Grabación con Juan Pablo Varsky", "Descontrol de compras de Roberto", "Irán-Estados Unidos"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["David Villa", "Juan Pablo Varsky"]
+  },
+  "o6v9bPO7Fn8": {
+    desc: "Día de Argentina-Polonia, con todos ya recuperados de la gripe: Alfredo hasta grabó una publicidad y Germán amaneció “rozagante”. Recorren La Perla, el “Puerto Madero” de lujo de Doha, entre Lamborghinis y autos de 100.000 dólares, mientras pelean con el estabilizador y Alfredo vuelve a “romper la cocina”. A la tarde van al Estadio 974 a ver el partido: Argentina gana 2-0 con goles de Mac Allister y Julián, clasifica primera y Germán festeja bailando descontrolado toda la jornada.",
+    temas: ["Recorrida por La Perla", "Autos de lujo", "Desorden de la casa", "Argentina 2-0 Polonia", "El baile de Germán"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
