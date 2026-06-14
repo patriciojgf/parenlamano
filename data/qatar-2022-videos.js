@@ -243,5 +243,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: ["Renzo Saravia"]
   },
+  "i7LlDbppUeU": {
+    desc: "Programa de la previa a los octavos ante Australia, dominado por una extensa y jugosa charla con el delantero Wanchope Ábila. Entre mates y risas, el “Wancho” cuenta intimidades de su carrera: la amistad con Carlitos Tevez, su fanatismo por la Mona Jiménez y por Instituto, las diferencias entre la MLS y el fútbol brasileño, su colección de camisetas y la filosofía del goleador que “vive al límite”. En lo deportivo se palpita el partido con Australia, con Di María entre algodones y el debate Julián-Lautaro. De fondo, los chivos de siempre y el saludo al equipo en Buenos Aires.",
+    temas: ["Previa de los octavos vs Australia", "Charla con Wanchope Ábila", "Tevez, la Mona y el fútbol cordobés", "MLS vs fútbol brasileño", "La vida del goleador"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Wanchope Ábila"]
+  },
+  "227LWxq1CU0": {
+    desc: "Programa del día después del triunfo ante Australia, ya pensando en los cuartos con Países Bajos. Arranca con la demolición de Brasil a Corea (“fue como ver una pornográfica”) y el debate de si Brasil es el gran candidato, más el clásico análisis del cruce Argentina-Brasil. El corazón del programa es una sesión de “terapia de grupo”: estalla el reclamo de Roberto por sentirse excluido (“pasó el enamoramiento, ahora la convivencia”) y se discute el aburrimiento de los días muertos, el atardecer a las 4:30 y la comida una vez por día. También hay un repaso histórico de las camisetas más lindas y el segmento de tips del viajero.",
+    temas: ["Brasil candidato", "El cruce Argentina-Brasil", "Terapia de grupo y los reclamos de Roberto", "Los días muertos del Mundial", "Las camisetas más lindas"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
