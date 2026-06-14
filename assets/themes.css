@@ -1,0 +1,113 @@
+/* themes.css — temas visuales reutilizables (album claro / híbrido) */
+/* ===================== TEMA: ÁLBUM DE FIGURITAS (claro) ===================== */
+body[data-theme="album"]{
+  --primary:#74ACDF; --primary-deep:#F4ECDC; --ink:#FFFDF7;
+  --accent:#1F2A44; --accent-soft:#3D517C;
+  --secondary:#74ACDF; --secondary-deep:#3D7FBF;
+  --paper:#1F2A44; --line:rgba(31,42,68,.35);
+  background:#F4ECDC;color:#1F2A44;
+}
+body[data-theme="album"]::before{
+  opacity:.5;
+  background-image:radial-gradient(rgba(31,42,68,.10) 1.1px,transparent 1.1px);
+  background-size:20px 20px;
+}
+body[data-theme="album"] header{background:linear-gradient(180deg,#EADFC8 0%,transparent 100%);border-bottom-color:rgba(31,42,68,.25)}
+body[data-theme="album"] h1 .plm{color:#1F2A44}
+body[data-theme="album"] h1 .qatar{background:linear-gradient(90deg,#3D7FBF,#74ACDF 50%,#3D7FBF);-webkit-background-clip:text;background-clip:text;color:transparent}
+body[data-theme="album"] .hero-sub{color:rgba(31,42,68,.8)}
+body[data-theme="album"] .hero-eyebrow{color:#8A6D1F;border-color:rgba(31,42,68,.3)}
+body[data-theme="album"] .hero-meta span{background:#FFFDF7;color:#8A6D1F;border-color:rgba(31,42,68,.3)}
+body[data-theme="album"] .fchip{background:#FFFDF7;color:#1F2A44;border-color:rgba(31,42,68,.35)}
+body[data-theme="album"] .card{
+  background:#FFFDF7;border:2px solid #1F2A44;border-radius:10px;
+  box-shadow:4px 4px 0 rgba(31,42,68,.18);
+}
+body[data-theme="album"] .card-head{
+  background:repeating-linear-gradient(90deg,#9CC4E8 0 28px,#FFFFFF 28px 56px);
+}
+body[data-theme="album"] .card-title{color:#15203A}
+body[data-theme="album"] .card.official .card-head{background:#C9A227}
+body[data-theme="album"] .card.official .card-title{color:#15203A}
+body[data-theme="album"] .card.official{box-shadow:4px 4px 0 rgba(201,162,39,.4)}
+body[data-theme="album"] .card-desc{color:rgba(31,42,68,.78)}
+body[data-theme="album"] .card-meta{color:rgba(31,42,68,.6)}
+body[data-theme="album"] .card-meta b{color:#1F2A44}
+body[data-theme="album"] .card-meta em{color:#8A6D1F}
+body[data-theme="album"] .yt-link{color:rgba(31,42,68,.55)}
+body[data-theme="album"] .card-foot{border-top-color:rgba(31,42,68,.18)}
+body[data-theme="album"] .facade::after{background:#3D7FBF}
+body[data-theme="album"] .scoreboard{background:#FFFDF7;border:2px solid #1F2A44;box-shadow:4px 4px 0 rgba(31,42,68,.18)}
+body[data-theme="album"] .scoreboard .teams{color:#1F2A44}
+body[data-theme="album"] .scoreboard .score{background:#1F2A44;color:#F4ECDC}
+body[data-theme="album"] .scoreboard .note{color:rgba(31,42,68,.7)}
+body[data-theme="album"] .sb-eyebrow{color:#8A6D1F;border-bottom-color:rgba(31,42,68,.2)}
+body[data-theme="album"] .sb-eyebrow span:last-child{color:rgba(31,42,68,.6)}
+body[data-theme="album"] .scoreboard.final{border-color:#C9A227}
+body[data-theme="album"] .daybar{background:#EDE3CC;border:1.5px solid rgba(31,42,68,.4);border-left:4px solid #3D7FBF}
+body[data-theme="album"] .daybar.ko{border-color:#C9A227;border-left-color:#C9A227}
+body[data-theme="album"] .daybar-date{color:#1F2A44}
+body[data-theme="album"] .daybar-phase{color:rgba(31,42,68,.55)}
+body[data-theme="album"] .res{background:#FFFDF7;border-color:rgba(31,42,68,.3);color:#1F2A44}
+body[data-theme="album"] .res .sc{color:#8A6D1F}
+body[data-theme="album"] .res em{color:rgba(31,42,68,.5)}
+body[data-theme="album"] .res.arg{background:#D8E8F7;border-color:#3D7FBF;color:#15203A}
+body[data-theme="album"] .res.arg .sc{color:#15203A}
+body[data-theme="album"] .gtable{background:#FFFDF7;border-color:rgba(31,42,68,.35)}
+body[data-theme="album"] .gtable caption{background:#1F2A44;color:#F4ECDC}
+body[data-theme="album"] .gtable caption small{color:rgba(244,236,220,.7)}
+body[data-theme="album"] .gtable th{color:rgba(31,42,68,.5)}
+body[data-theme="album"] .gtable td{color:rgba(31,42,68,.85);border-top-color:rgba(31,42,68,.12)}
+body[data-theme="album"] .gtable td.gt{color:#15203A}
+body[data-theme="album"] .gtable td.pt{color:#8A6D1F}
+body[data-theme="album"] .gtable tr.qual td{background:rgba(63,166,122,.14)}
+body[data-theme="album"] .gtable tr.arg td{background:#D8E8F7}
+body[data-theme="album"] .bracket-h{color:#1F2A44}
+body[data-theme="album"] .kcol-h,body[data-theme="album"] .tp-label{color:rgba(31,42,68,.5)}
+body[data-theme="album"] .kom{background:#FFFDF7;border-color:rgba(31,42,68,.35)}
+body[data-theme="album"] .kt{color:rgba(31,42,68,.7)}
+body[data-theme="album"] .kt b{color:#1F2A44}
+body[data-theme="album"] .kt b i{color:#8A6D1F}
+body[data-theme="album"] .kom.played .kt.win{color:#0E3D2A;background:rgba(63,166,122,.18)}
+body[data-theme="album"] .kom.played .kt.win b{color:#1E7A52}
+body[data-theme="album"] .kt.arg span{color:#2E5E94}
+body[data-theme="album"] .dm-pill{background:#FFFDF7;border:1.5px solid #1F2A44;box-shadow:3px 3px 0 rgba(31,42,68,.18)}
+body[data-theme="album"] .dm-date{color:#1F2A44}
+body[data-theme="album"] .datemark::before{background:#F4ECDC;border-color:#1F2A44}
+body[data-theme="album"] .timeline::before{background:#1F2A44;opacity:.5}
+body[data-theme="album"] .dmr{background:#FFFDF7;border-color:rgba(31,42,68,.35);color:#1F2A44}
+body[data-theme="album"] .dmr .ab{color:rgba(31,42,68,.7)}
+body[data-theme="album"] .dmr b{color:#8A6D1F}
+body[data-theme="album"] .dmr.arg{background:#D8E8F7;border-color:#3D7FBF}
+body[data-theme="album"] .dmr.arg b{color:#15203A}
+body[data-theme="album"] .argnav{background:#FFFDF7;border:2px solid #1F2A44}
+body[data-theme="album"] .argnav-t{color:#1F2A44}
+body[data-theme="album"] .argnav button{color:rgba(31,42,68,.8);background:rgba(31,42,68,.05)}
+body[data-theme="album"] .argnav button.active{background:#D8E8F7;border-color:#3D7FBF;color:#15203A}
+body[data-theme="album"] .argnav-fab{background:#1F2A44;border-color:#C9A227}
+body[data-theme="album"] footer{color:rgba(31,42,68,.6)}
+body[data-theme="album"] footer b{color:#8A6D1F}
+body[data-theme="album"] .chip.fifa{background:#1F2A44;color:#C9A227;border-color:#C9A227}
+body[data-theme="album"] .chip.afa{background:#1F2A44;color:#fff}
+
+/* ===== HÍBRIDO: figuritas Álbum sobre fondo y detalles de Qatar ===== */
+body[data-theme="hibrido"] .card{
+  background:#FFFDF7;border:2px solid #1F2A44;border-radius:10px;
+  box-shadow:4px 4px 0 rgba(0,0,0,.4);
+}
+body[data-theme="hibrido"] .card-head{
+  background:repeating-linear-gradient(90deg,#9CC4E8 0 28px,#FFFFFF 28px 56px);
+}
+body[data-theme="hibrido"] .card-title{color:#15203A}
+body[data-theme="hibrido"] .card.official .card-head{background:linear-gradient(90deg,var(--accent),var(--accent-soft))}
+body[data-theme="hibrido"] .card.official .card-title{color:#15203A}
+body[data-theme="hibrido"] .card.official{box-shadow:4px 4px 0 rgba(0,0,0,.4)}
+body[data-theme="hibrido"] .card-desc{color:rgba(31,42,68,.78)}
+body[data-theme="hibrido"] .card-meta{color:rgba(31,42,68,.6)}
+body[data-theme="hibrido"] .card-meta b{color:#1F2A44}
+body[data-theme="hibrido"] .card-meta em{color:#8A6D1F}
+body[data-theme="hibrido"] .yt-link{color:rgba(31,42,68,.6)}
+body[data-theme="hibrido"] .card-foot{border-top-color:rgba(31,42,68,.18)}
+body[data-theme="hibrido"] .facade::after{background:#3D7FBF}
+body[data-theme="hibrido"] .chip.afa{background:#1F2A44;color:#fff;border:1px solid #1F2A44}
+body[data-theme="hibrido"] .card.official .chip.fifa{}

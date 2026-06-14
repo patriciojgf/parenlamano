@@ -1,0 +1,126 @@
+/* home.css — portada con la identidad de Paren la Mano (violeta) */
+:root{
+  --bg-from:#7B1E96;      /* violeta vibrante */
+  --bg-to:#270A30;        /* violeta muy oscuro */
+  --purple:#6E2382;       /* púrpura de paneles/acentos */
+  --purple-deep:#270A30;
+  --ink:#F6EEF9;          /* casi blanco cálido */
+  --cream:#E1D4CB;        /* crema (texto del programa) */
+  --muted:rgba(246,238,249,.72);
+  --lilac:#D7A8F0;        /* lila para detalles */
+  --line:rgba(255,255,255,.16);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Archivo',system-ui,sans-serif;
+  background:linear-gradient(118deg, var(--bg-from) 1%, var(--bg-to) 100%) fixed;
+  color:var(--ink);line-height:1.55;min-height:100vh;
+}
+/* trama diagonal sutil */
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.04;
+  background-image:
+    repeating-linear-gradient(45deg, #fff 0 1px, transparent 1px 24px),
+    repeating-linear-gradient(-45deg, #fff 0 1px, transparent 1px 24px);
+}
+
+/* ---------- HEADER ---------- */
+.home-header{text-align:center;padding:60px 20px 26px;position:relative}
+.hero-logo{margin:0;line-height:0}
+.plm-logo{
+  width:clamp(220px,58vw,360px);height:auto;display:block;margin:0 auto;
+  border-radius:22px;box-shadow:0 14px 40px rgba(0,0,0,.45);
+}
+.home-header .hl{
+  display:inline-block;margin-top:20px;
+  font-family:'Anton',sans-serif;
+  font-size:clamp(1rem,4vw,1.5rem);letter-spacing:.2em;text-transform:uppercase;
+  color:#fff;background:linear-gradient(90deg,#E12AD6,#7A1E97);
+  padding:.18em .8em;transform:rotate(-1.2deg);
+}
+
+/* ---------- SECCIÓN ---------- */
+.section-h{
+  max-width:1000px;margin:40px auto 0;padding:0 18px;
+  font-family:'Anton',sans-serif;font-size:1.4rem;letter-spacing:.05em;text-transform:uppercase;
+  color:#fff;
+}
+.section-h span{color:var(--lilac)}
+
+/* ---------- GRILLA DE EVENTOS ---------- */
+.grid{
+  max-width:1000px;margin:12px auto 0;padding:14px 18px 30px;
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:20px;
+}
+.tl-card{
+  position:relative;display:flex;flex-direction:column;
+  background:linear-gradient(180deg, color-mix(in srgb, var(--cprimary) 60%, #1a0820) 0%, rgba(15,5,20,.6) 100%);
+  border:1.5px solid color-mix(in srgb, var(--caccent) 55%, transparent);
+  border-radius:16px;overflow:hidden;text-decoration:none;color:inherit;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+  transition:transform .16s ease, border-color .16s ease, box-shadow .16s ease;
+}
+.tl-card.live:hover,.tl-card.live:focus-visible{
+  transform:translateY(-4px);border-color:var(--caccent);
+  box-shadow:0 16px 40px rgba(0,0,0,.5);
+}
+.tl-card.soon{opacity:.6;cursor:default}
+.tl-stripe{height:8px;background:linear-gradient(90deg,var(--caccent),var(--csecondary))}
+.tl-body{padding:20px 20px 22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.tl-eyebrow{font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:var(--caccent)}
+.tl-title{font-family:'Anton',sans-serif;font-size:1.9rem;letter-spacing:.02em;text-transform:uppercase;line-height:1;color:#fff}
+.tl-date{font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.6)}
+.tl-sub{font-size:.92rem;color:rgba(255,255,255,.78);flex:1}
+.tl-badge{
+  align-self:flex-start;font-size:.7rem;font-weight:800;letter-spacing:.06em;
+  background:var(--caccent);color:#1a1a1a;border-radius:7px;padding:.35em .7em;
+}
+.tl-card.soon .tl-badge{background:rgba(255,255,255,.18);color:var(--ink)}
+.tl-stats{display:flex;gap:8px;flex-wrap:wrap;margin-top:2px}
+.tl-stats span{
+  font-size:.7rem;font-weight:600;color:rgba(255,255,255,.72);
+  background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:6px;padding:.3em .6em;
+}
+.tl-cta{margin-top:6px;font-size:.8rem;font-weight:800;letter-spacing:.04em;color:var(--caccent)}
+
+/* ---------- PÁGINA ACERCA DE ---------- */
+.page{max-width:680px;margin:0 auto;padding:40px 18px 10px;text-align:center}
+.back-link{
+  display:inline-block;margin-bottom:26px;
+  font-size:.8rem;font-weight:700;letter-spacing:.04em;text-decoration:none;
+  color:var(--lilac);opacity:.9;
+}
+.back-link:hover,.back-link:focus-visible{opacity:1;text-decoration:underline}
+.plm-logo-sm{width:clamp(160px,42vw,220px);margin-bottom:16px}
+.page-h{
+  font-family:'Anton',sans-serif;font-weight:400;font-size:1.8rem;letter-spacing:.04em;
+  text-transform:uppercase;color:#fff;margin-bottom:6px;
+}
+.about{
+  margin:18px auto 0;padding:22px 24px;text-align:left;
+  background:rgba(20,6,26,.45);border:1px solid var(--line);border-radius:12px;
+  font-size:.96rem;color:rgba(246,238,249,.82);
+}
+.about b{color:rgba(255,255,255,.94)}
+
+.social{
+  display:flex;gap:10px;justify-content:center;flex-wrap:wrap;
+  max-width:680px;margin:28px auto 0;padding:0 18px;
+}
+.social a{
+  text-decoration:none;font-size:.78rem;font-weight:800;letter-spacing:.04em;
+  color:#fff;background:rgba(255,255,255,.07);border:1px solid var(--line);
+  border-radius:999px;padding:.5em 1.2em;
+}
+.social a:hover,.social a:focus-visible{border-color:var(--lilac);color:var(--lilac)}
+
+footer{text-align:center;padding:22px 16px 64px;font-size:.78rem;color:rgba(246,238,249,.5)}
+footer b{color:var(--lilac)}
+footer a{color:rgba(246,238,249,.7);font-weight:700;text-decoration:underline;text-underline-offset:2px}
+footer a:hover,footer a:focus-visible{color:var(--lilac)}
+
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .tl-card{transition:none}
+}
