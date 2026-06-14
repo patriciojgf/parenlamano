@@ -147,5 +147,53 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "vSumHdOyBp0": {
+    desc: "El título lo dice todo: el peor día de Roberto en Qatar. Mientras el resto vuelve a La Perla a ver los yates de lujo y Alfredo se obsesiona con que en Qatar “no hay perros”, Roberto quedó tirado en la casa, contagiado de la “gripe porcina” que —denuncia— le pegaron los otros tres, que encima le “chorearon” las pastillas para la muela y se fueron sin dejarle nada. Desde su pieza se manda un monólogo furioso y desopilante por streaming, fumando adentro y sin poder dormir. De fondo, la preocupación por conseguir entradas para los octavos ante Australia.",
+    temas: ["El bajón de Roberto", "La gripe del grupo", "La Perla y los yates", "Entradas para Australia"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "QnqvmnuEUUw": {
+    desc: "Domingo sin partido de Argentina y con el ánimo por el piso. Roberto se levanta a las 13, hecho un “monje tibetano” que contesta una de cada seis preguntas, mientras Germán arrastra la bronca por el asado prometido dos veces que nunca apareció. Se arma el clásico ida y vuelta sobre qué hacer —parque acuático, desierto, otro barco— y Germán se defiende de que “no hace nada” como Roberto. Hay sketch de falso movilero sobre el día libre de la Selección y cierre en el estudio mostrando las camisetas del “huevo”.",
+    temas: ["Domingo de desgano", "El asado que nunca fue", "Discusión de planes", "Falso informe de la Selección"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Juancito Castro"]
+  },
+  "5P3fa2lD27g": {
+    desc: "Día de “lavar los trapitos sucios”, literal y metafórico: estalla la pelea de convivencia por la mugre y las moscas de la casa —quién dejó las luces prendidas, quién no limpia—, con Germán y Luquitas tirándose la culpa. Después salen a comprar parlantes (con el infaltable regateo y el “¿es original?”) y van con Maslatón a vivir por primera vez un FanFest y a recorrer el Museo de la FIFA, con un repaso de la historia de los Mundiales lleno de datos. Cierra con Portugal goleando y Cristiano de fondo.",
+    temas: ["Pelea por la limpieza", "Compra de parlantes", "FanFest con Maslatón", "Museo de la FIFA"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Carlos Maslatón"]
+  },
+  "pt2u73SeTt0": {
+    desc: "Festejo del triunfo en octavos ante Australia, transmitido en vivo mientras Roberto cocina y la ilusión está a flor de piel. El grupo analiza a fondo el partido: el primer gol de Messi en mata-mata, el gol de Julián, el debate Lautaro vs Julián y los puntajes de cada jugador. El plato fuerte es el tremendo cruce entre Roberto y Germán: el Rob-Rob quería su “foto viral” festejando en la barra y Germán terminó filmándole el culo, conflicto que se relata con lujo de detalles. También se cuela la novela de “palito” Bilbao.",
+    temas: ["Festejo de octavos", "Análisis del partido", "Lautaro vs Julián", "La pelea por la foto viral"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "dJ6_j_Zvdqs": {
+    desc: "Día de los octavos ante Australia, con Luquitas “cansado de vivir de noche”. Antes del partido mata la ansiedad en un local de videojuegos retro —Mega Drive, PlayStation 1, Super Nintendo, Game Boy— y en una tienda de computación mirando teclados y monitores gamer. Va a la cancha con las entradas de los amigos de Adidas y Argentina gana 2-1, con el gol 1000 de Messi. Cierra con la euforia del pase a cuartos y, otra vez, Roberto reclamando su “foto viral” de la barra y la fantasía del crucero del Wancho.",
+    temas: ["Octavos vs Australia", "Local de videojuegos retro", "Tienda de tecnología", "Festejo del pase a cuartos"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "eqJ9OTK47w8": {
+    desc: "El día de máxima preocupación: faltan horas para los cuartos ante Países Bajos y siguen sin entradas. Entre medio, una recorrida por una disquería (guitarras, vinilos de Metallica y Led Zeppelin), una milanesa con “palito” Bilbao en un restaurante de élite y observaciones sobre el botox y el maquillaje locales. El alivio llega con un “¡conseguimos tickets!”, hay cocina para la previa y el desopilante sketch de Roberto desbaratando por Instagram a un estafador que quería sus datos (“Roberto Galati 1, timador 0”). Cierra con los nervios de la noche previa.",
+    temas: ["La angustia por las entradas", "Disquería y música", "Almuerzo con palito Bilbao", "Roberto vs el estafador"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["palito Bilbao"]
+  },
+  "4wf3XTnIMCM": {
+    desc: "El día después de la semifinal, con Germán que “no da más”, extraña a su novia y se quiere volver a casa. El grupo debate qué le conviene a Argentina en la otra semifinal —Francia o Marruecos— según el aspecto futbolístico, emocional y… el precio de las entradas. Miran Francia-Marruecos, hay otra vuelta del eterno debate del pan con dulce de leche, un monitor que explota dentro del carrito del súper y la saga del “chocolatito con leche” de Germán. De fondo, Roberto otra vez enfermo con el “virus del camello”.",
+    temas: ["Germán quiere volver", "Qué rival conviene", "Francia-Marruecos", "Sagas de convivencia"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "m7w3WLwRHIY": {
+    desc: "A dos días de la final y todavía sin entradas, la angustia es total: el video cierra con el pedido directo y desesperado a Chiqui Tapia por “cuatro nada más para los muchachos”. En el medio, otra vuelta del debate del pan, paseos nocturnos para escapar de la casa “depresiva”, un duelo de jueguito y Germán enfermo por segundo día con 38,2 de fiebre, contando los días para volver. Roberto, cada vez más antisocial, prefiere el celular antes que unos mates con los amigos.",
+    temas: ["Dos días para la final", "Sin entradas", "El pedido a Chiqui Tapia", "Germán enfermo"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
