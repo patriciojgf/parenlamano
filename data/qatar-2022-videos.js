@@ -303,5 +303,23 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "pZz5QzVtpso": {
+    desc: "El vlog de cierre: un repaso emotivo de todo el mes mundialista, del “comienzo para olvidar” (la derrota con Arabia) al “final para recordar” (la consagración). Mezcla las postales del día de la final —el desayuno con los amigos, el juego de cambiar camisetas, el lío de quedar separados en la entrada por la credencial de FIFA— con el festejo de campeones del mundo y los abrazos a la gente. Termina con un agradecimiento sentido a todos los que bancaron los blogs durante el viaje. Es el adiós a Qatar antes de volver a Buenos Aires.",
+    temas: ["Repaso de todo el Mundial", "El día de la final", "El juego de cambiar camisetas", "Campeones y agradecimientos"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "C27xr-CBSh8": {
+    desc: "Reacción de Luquitas y los amigos al partido completo de la final, mirado con el emotivo relato de De Paoli. Es un repaso jugada por jugada del 3-3 con Francia —los penales de Di María y Mbappé, el gol de Messi en el alargue, la atajada salvadora del Dibu a Kolo Muani y la tanda final con el penal de Montiel—, intercalando los recuerdos de cómo lo vivieron desde el estadio en Doha. En el medio, una charla sentida sobre lo que significó la consagración, el “ya tengo todo pago” y la idiosincrasia argentina de sufrir y volver a levantarse. Es el cierre emocional de toda la saga mundialista.",
+    temas: ["Reacción a la final", "El partido jugada por jugada", "La atajada del Dibu y los penales", "Lo que significó ser campeón"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "gVREUy7SlwQ": {
+    desc: "El último programa del ciclo, a pura celebración: Argentina campeón del mundo. El “Big Big Rob” trae la copa y se palpita la consagración con la incredulidad de haberlo vivido desde adentro. Se repasa la polémica del bisht que le pusieron a Messi y el “protagonismo” de Infantino en la entrega, se elige a las figuras del Mundial (Messi, el Dibu, Julián, Enzo, Di María) y se debate dónde quedan en la historia de la Selección. También se palpita la pregunta del momento: si Messi seguirá hasta 2026. Es el cierre del año y del viaje, con la tercera estrella ya cosida en el corazón.",
+    temas: ["¡Argentina campeón del mundo!", "El bisht de Messi e Infantino", "Las figuras del Mundial", "¿Messi hasta 2026?", "Cierre del ciclo"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
