@@ -291,5 +291,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "F0hYSn82oHI": {
+    desc: "Programa del día después del triunfo ante México, con el alivio de haber enderezado el Mundial. Se reparten los puntajes (con el golazo de Messi como bisagra) y se cuenta el tenso cruce de Roberto con un mexicano en la cancha, que el Dibu Martínez y la seguridad ayudaron a calmar. Hay mucho color: el tweet que los mostraba como “barras”, una larga sesión de shopping en la NBA Store (la campera, la ropa de los Lakers), el segmento de “gastos imprevistos” y las anécdotas de convivencia con el personal que se mete en la casa. También se comenta el cruce Canelo-Messi por la camiseta en el piso y se palpita la previa de Polonia.",
+    temas: ["Triunfo ante México y puntajes", "El cruce de Roberto con un mexicano", "Shopping en la NBA Store", "Gastos imprevistos del viaje", "Canelo vs Messi"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "sZxwaIEh2AU": {
+    desc: "Programa de la previa a Argentina-Polonia, el partido para sellar la clasificación, con Alfredo tan enfermo que lo mandan a dormir al aire. Se palpita el partido y la formación, y Luquitas cuenta que en USA-Irán se sacó una foto con el rapero 6ix9ine y después la borró de vergüenza. Hay un largo y divertido ida y vuelta sobre la rivalidad Argentina-Uruguay, una ronda de cábalas (el “Poncio Pilato” de Roberto, los lavados de manos de Germán, el juego de las patentes de su papá) y un debate futbolero sobre Ronaldo “el Fenómeno”, Cristiano y Ronaldinho. También fantasean con juntar alguna vez a Pergolini y Tinelli en el programa.",
+    temas: ["Previa de Argentina-Polonia", "La foto con 6ix9ine", "Rivalidad Argentina-Uruguay", "Cábalas del grupo", "Ronaldo, Cristiano y Ronaldinho"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
