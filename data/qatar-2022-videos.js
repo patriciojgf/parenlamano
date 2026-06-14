@@ -219,5 +219,11 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "iDaqtUS5dv0": {
+    desc: "El primer programa desde Qatar, al aire para procesar el shock: la derrota 1-2 con Arabia Saudita en el debut. Entre la desolación y la búsqueda de objetividad, el grupo discute si “el castillo no era tan fuerte”, se aferra a la esperanza tras el empate México-Polonia y compara el golpe con otros arranques mundialistas. Hay un mensaje serio contra el linchamiento en redes a la jueza “Chapo” Martínez, los puntajes (con el eterno debate por Di María y el cambio de Acuña) y las primeras anécdotas del viaje: la llegada caótica, el regateo con el taxista, los tips para armar la valija y la saga del check-in de Roberto.",
+    temas: ["La derrota con Arabia", "Procesar el golpe del debut", "Contra el linchamiento a la jueza", "Puntajes y el cambio de Acuña", "Anécdotas del viaje"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
