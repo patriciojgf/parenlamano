@@ -267,5 +267,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "3vNyGceA-ac": {
+    desc: "Programa de la previa a los cuartos ante Países Bajos. El plato fuerte es un largo y picante debate sobre el periodismo y los rumores de lesión de De Paul: la filtración desde la concentración, la cultura de la primicia y el palo de Scaloni a la prensa. Se palpita el partido con Holanda (con porcentajes y la chicana de que “Alfaro se lo cogió”), se discute si es el último Mundial de Messi y Germán se manda una “fanfic” futbolera con Argentina campeona. También hay una sentida discusión sobre los técnicos “vende humo” tipo Guardiola y el infaltable “viaje de la melva”.",
+    temas: ["Previa de los cuartos vs Países Bajos", "Los rumores de lesión de De Paul", "¿El último Mundial de Messi?", "Técnicos “vende humo”", "El “viaje de la melva”"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "Lpdq9kHDqYw": {
+    desc: "Programa de la previa a la semifinal con Croacia, tras la clasificación por penales ante Países Bajos (con la anécdota de los tucumanos presos que les demoraron el subte). Se palpita el partido y vuelve el debate de qué final conviene, Francia o Marruecos, mientras Germán fantasea con la consagración. Los invitados son los hermanos venezolanos de Yolo Aventura, que cuentan su delirante reto de sobrevivir en Qatar “con un centavo” —durmiendo en la calle y canjeando agua y banderitas— para entregarle esa moneda a Messi. También hay otra ronda de fricción de convivencia y el infaltable “viaje de la melva”.",
+    temas: ["Previa de la semifinal vs Croacia", "El reto del “centavo a Messi” de Yolo Aventura", "¿Francia o Marruecos en la final?", "Convivencia y reclamos", "El “viaje de la melva”"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Yolo Aventura"]
+  },
   /*INSERT*/
 };
