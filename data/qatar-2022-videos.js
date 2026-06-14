@@ -255,5 +255,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "K07IOnwxuiY": {
+    desc: "Programa de los dos días sin fútbol entre octavos y cuartos. Arranca con la eliminación de España por penales ante Marruecos (y los palos a Luis Enrique por el “toqueteo intrascendente”), Portugal goleando sin Cristiano y el debate sobre cuánto dependen Argentina de Messi y Portugal de Cristiano. Hay un análisis del cambio de esquema de Scaloni a la línea de cinco y un larguísimo repaso de la carrera de entrenador del Cholo Simeone. En lo cotidiano, la previa del partido de fútbol del grupo (con Roberto haciéndose rogar para jugar), la obsesión con la manteca en la cocina y los problemas de internet.",
+    temas: ["España eliminada por Marruecos", "Messi y Cristiano: cuánto inciden", "El cambio de esquema de Scaloni", "La carrera del Cholo Simeone", "La previa del partido del grupo"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "q7nSZnbQm3o": {
+    desc: "Programa de mitad de semana, agotados tras el día en el crucero de Wanchope Ábila y el picado de fútbol que terminó con Roberto sin aire y un amigo en el hospital con el hombro dislocado. Se cuenta el desenmascaramiento de los relojes Invicta “con 75% de descuento” que después aparecieron baratísimos en Amazon, la noticia de la lesión de De Paul y el almuerzo de Messi con el Kun como “el contenido del Mundial”. El tramo más sentido es el reto a Roberto por el cigarrillo y la falta de aire, empujándolo a cuidarse. De fondo, el chivo del “viaje de la melva” ampliado a cualquier producto Terrabusi y las cábalas para la final.",
+    temas: ["El crucero y el picado de fútbol", "Los relojes Invicta “truchos”", "La lesión de De Paul", "El reto a Roberto por el cigarrillo", "Cábalas para la final"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
