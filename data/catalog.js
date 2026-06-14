@@ -14,6 +14,17 @@ window.PLM_CATALOG = [
     theme: { primary: "#8A1538", primaryDeep: "#4D0B1F", accent: "#E8C36A", secondary: "#75AADB" }
   },
   {
+    id: "el-tribunero",
+    href: "el-tribunero/",
+    eyebrow: "Paren la Mano · Ciclo semanal",
+    title: "El Tribunero",
+    subtitle: "El programa de fútbol de Paren la Mano, capítulo a capítulo y ordenado por fecha, con el contexto futbolístico de cada semana y sus invitados.",
+    dateRange: "Temporada 2026",
+    badge: "🎙️ En emisión",
+    stats: ["14 capítulos", "Lunes 19–21 h", "Vorterix"],
+    theme: { primary: "#B11226", primaryDeep: "#3D0810", accent: "#F2C14E", secondary: "#E0524A" }
+  },
+  {
     id: "copa-america-2024",
     soon: true,
     eyebrow: "Copa América · CONMEBOL",

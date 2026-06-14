@@ -94,6 +94,7 @@ function renderEvent(EVENT) {
     if (!info) return "";
     const chips = (arr) => (arr || []).map(t => `<span class="vchip">${t}</span>`).join("");
     let rows = "";
+    if (info.contexto) rows += `<div class="vrow"><span class="vlabel">Contexto</span><span class="vtext">${info.contexto}</span></div>`;
     if (info.temas && info.temas.length) rows += `<div class="vrow"><span class="vlabel">Temas</span><span class="vchips">${chips(info.temas)}</span></div>`;
     if (info.con && info.con.length) rows += `<div class="vrow"><span class="vlabel">Con</span><span class="vchips">${chips(info.con)}</span></div>`;
     if (info.invitados && info.invitados.length) rows += `<div class="vrow"><span class="vlabel">Invitados</span><span class="vchips">${chips(info.invitados)}</span></div>`;

@@ -389,6 +389,7 @@
   .vchip{font-size:.7rem;font-weight:600;color:rgba(255,248,236,.82);
     background:rgba(255,255,255,.05);border:1px solid rgba(232,195,106,.22);
     border-radius:6px;padding:.18em .55em}
+  .vtext{flex:1;min-width:60%;font-size:.84rem;line-height:1.45;color:rgba(255,248,236,.82)}
   .yt-link{display:block;margin-top:6px;font-size:.7rem;color:rgba(255,248,236,.55);text-decoration:none}
   .yt-link:hover,.yt-link:focus-visible{color:var(--accent)}
 
