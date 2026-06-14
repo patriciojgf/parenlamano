@@ -195,5 +195,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: []
   },
+  "PAsDY0uTxUk": {
+    desc: "El programa de la clasificación a la final, al aire con la euforia a flor de piel tras el 3-0 a Croacia. El eje es la actuación monumental de Julián Álvarez —que superó a Batistuta como goleador histórico argentino en Mundiales— y los puntajes de cada jugador, con el Dibu y Messi en el centro. Se debate qué rival conviene para la final, Francia o Marruecos, y se repasa el camino Maradona→Messi: las dos finales en ocho años y el bajón de 2018. También se cuela la previa de los festejos en Argentina, los precios delirantes de las entradas y las anécdotas de “palito” Bilbao.",
+    temas: ["Clasificación a la final", "La actuación de Julián Álvarez", "Puntajes de los jugadores", "¿Francia o Marruecos?", "Precios de las entradas"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "Y0xzKP4v08A": {
+    desc: "Programa nocturno de la última semana, con la final del domingo en el horizonte. Se palpita la magnitud de jugar una final del mundo y se debate a fondo cómo ganarle a Francia —la posible línea de cinco, su juego vertical y el “virus del camello” que afectó a varios franceses—. Hay confianza plena en que Argentina es mejor equipo, una charla emotiva sobre si este puede ser el último partido de Messi y “el mejor final de película”, y un larguísimo y desopilante debate sobre la Navidad y las reuniones familiares. También pasan los chicos de AFA Estudio y se habla de los precios siderales de las entradas.",
+    temas: ["Última semana antes de la final", "Cómo ganarle a Francia", "El virus del camello", "¿El último Messi?", "Debate sobre la Navidad"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: ["Seba Varela", "Javier Lanza"]
+  },
   /*INSERT*/
 };
