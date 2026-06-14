@@ -207,5 +207,17 @@ window.PLM_VIDEOS = {
     con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
     invitados: ["Seba Varela", "Javier Lanza"]
   },
+  "bsxyhXZmCqY": {
+    desc: "Programa de la previa a Argentina-México, con Luquitas al frente pero hecho percha: fiebre de 38,5 y la “leche de camello” corriéndole por las venas. El clima es de tensión pura por el partido a todo o nada tras la derrota con Arabia, con debate sobre los cambios que metería Scaloni (¿cinco?), si se quebró la unanimidad alrededor del equipo y el fantasma de que sea “el último Messi”. Entre medio, el desastre culinario de querer cocinar un entrecot congelado sin plancha (que termina hecho chicharrón), un repaso por los sueldos millonarios del fútbol y las cuotas de las apuestas.",
+    temas: ["Previa de Argentina-México", "Luquitas con fiebre", "Los cambios de Scaloni", "El desastre de la cocina", "Sueldos del fútbol"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
+  "DFROREs8om0": {
+    desc: "El programa de la clasificación a octavos, al aire directo desde el estadio tras el 2-0 a Polonia. Es el día en que “volvió la Argentina que creíamos tener”: se palpita el alivio y se reparten los puntajes (Julián Álvarez, Mac Allister, Molina, el Dibu, Messi), con el repaso del gol de 25 toques y el frío cruce Messi-Lewandowski. Se analiza cómo se abrió el cuadro de cara a Australia, hay un repaso de la cultura local (el azán, los rezos, los edificios vacíos, la geopolítica de Qatar) y la eterna saga del asado que nunca llega. También se asume, entre risas, la catarata de publicidades que banca el viaje.",
+    temas: ["Clasificación a octavos", "Puntajes y el gol de Julián", "Messi y Lewandowski", "Cultura y geopolítica de Qatar", "El asado que nunca llega"],
+    con: ["Luquitas Rodríguez", "Alfredo Montes de Oca", "Germán Beder", "Roberto Galati"],
+    invitados: []
+  },
   /*INSERT*/
 };
