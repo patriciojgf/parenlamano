@@ -89,10 +89,22 @@ function renderEvent(EVENT) {
     if (pub) { const [y, mo, d] = pub.split("-").map(Number); html += `<span><b>Publicación:</b> ${fmtISO(new Date(y, mo - 1, d).getTime())}</span>`; }
     return html + `</div>`;
   }
+  function videoExtra(id) {
+    const info = (window.PLM_VIDEOS || {})[id];
+    if (!info) return "";
+    const chips = (arr) => (arr || []).map(t => `<span class="vchip">${t}</span>`).join("");
+    let rows = "";
+    if (info.temas && info.temas.length) rows += `<div class="vrow"><span class="vlabel">Temas</span><span class="vchips">${chips(info.temas)}</span></div>`;
+    if (info.con && info.con.length) rows += `<div class="vrow"><span class="vlabel">Con</span><span class="vchips">${chips(info.con)}</span></div>`;
+    if (info.invitados && info.invitados.length) rows += `<div class="vrow"><span class="vlabel">Invitados</span><span class="vchips">${chips(info.invitados)}</span></div>`;
+    return rows ? `<div class="vinfo">${rows}</div>` : "";
+  }
   function card(id, title, chip, when, desc) {
     const c = document.createElement("article");
     c.className = "card" + (OFFICIAL.has(chip) ? " official" : "");
     c.dataset.chip = chip;
+    const info = (window.PLM_VIDEOS || {})[id];
+    const realDesc = (info && info.desc) ? info.desc : desc;
     c.innerHTML = `
       <div class="card-head"><div class="card-title">${title}</div></div>
       <div class="player">
@@ -101,7 +113,8 @@ function renderEvent(EVENT) {
         </button>
       </div>
       <div class="card-body">
-        <p class="card-desc">${desc}</p>
+        <p class="card-desc">${realDesc}</p>
+        ${videoExtra(id)}
         <div class="card-foot">
           <div class="foot-left">
             <span class="chip ${chip}">${CHIP[chip] || chip}</span>

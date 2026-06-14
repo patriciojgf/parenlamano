@@ -379,6 +379,16 @@
   }
   /* colores por categoría: los genera engine.js desde EVENT.categories */
   .card.official{box-shadow:0 0 0 1px rgba(232,195,106,.3), 0 8px 22px rgba(0,0,0,.4)}
+  /* info del video: temas / integrantes / invitados */
+  .vinfo{margin-top:11px;padding-top:10px;border-top:1px solid rgba(232,195,106,.14);
+    display:flex;flex-direction:column;gap:7px}
+  .vrow{display:flex;gap:8px;align-items:baseline;flex-wrap:wrap}
+  .vlabel{flex:0 0 auto;font-size:.6rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--accent-soft);min-width:62px}
+  .vchips{display:flex;flex-wrap:wrap;gap:5px}
+  .vchip{font-size:.7rem;font-weight:600;color:rgba(255,248,236,.82);
+    background:rgba(255,255,255,.05);border:1px solid rgba(232,195,106,.22);
+    border-radius:6px;padding:.18em .55em}
   .yt-link{display:block;margin-top:6px;font-size:.7rem;color:rgba(255,248,236,.55);text-decoration:none}
   .yt-link:hover,.yt-link:focus-visible{color:var(--accent)}
 
