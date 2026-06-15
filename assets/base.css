@@ -339,10 +339,11 @@
       margin:16px 0 0;
     }
     .daygroup>*:not(.datemark){grid-column:2}
-    .datemark::before{left:auto;right:-40px;top:6px}
-    .stage::before{left:-39px}
-    .videos::before{left:-39px}
-    .daybar::before{left:-39px}
+    /* nodos/diamantes centrados EXACTOS sobre el riel (medido a ≥980px) */
+    .datemark::before{left:auto;right:-30px;top:6px}
+    .stage::before{left:-38px}
+    .videos::before{left:-37px}
+    .daybar::before{left:-34.5px}
     .dm-results{display:flex;flex-direction:column;gap:4px;align-items:stretch}
     /* fecha + resultados: bloque uniforme pegado al riel (mismos anchos, alineados) */
     .daygroup>.datemark .dm-pill{justify-content:center}
