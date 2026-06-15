@@ -22,7 +22,7 @@ window.PLM_CATALOG = [
     dateRange: "Temporada 2026",
     badge: "🎙️ En emisión",
     stats: ["14 capítulos", "Lunes 19–21 h", "Vorterix"],
-    theme: { primary: "#B11226", primaryDeep: "#3D0810", accent: "#F2C14E", secondary: "#E0524A" }
+    theme: { primary: "#7B1E96", primaryDeep: "#270A30", accent: "#D7A8F0", secondary: "#E12AD6" }
   },
   {
     id: "copa-america-2024",

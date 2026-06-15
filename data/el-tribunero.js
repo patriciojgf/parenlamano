@@ -18,12 +18,13 @@ window.PLM_EVENT = (function () {
     footer: "El Tribunero, el programa de fútbol de Paren la Mano por Vorterix. Las fechas indican el día de <b>emisión</b>. Los videos son los originales y oficiales del canal."
   };
 
+  // Identidad violeta de Paren la Mano (misma del home).
   const theme = {
     tokens: {
-      "--primary": "#B11226", "--primary-deep": "#3D0810", "--ink": "#2B0610",
-      "--accent": "#F2C14E", "--accent-soft": "#D9A441",
-      "--secondary": "#E0524A", "--secondary-deep": "#A8322C",
-      "--paper": "#FFF8EC", "--line": "rgba(242,193,78,.42)"
+      "--primary": "#7B1E96", "--primary-deep": "#270A30", "--ink": "#2A0A33",
+      "--accent": "#D7A8F0", "--accent-soft": "#B86FD6",
+      "--secondary": "#E12AD6", "--secondary-deep": "#A21FB0",
+      "--paper": "#F6EEF9", "--line": "rgba(215,168,240,.40)"
     },
     default: "",
     options: []

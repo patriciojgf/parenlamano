@@ -93,8 +93,16 @@ function renderEvent(EVENT) {
     const info = (window.PLM_VIDEOS || {})[id];
     if (!info) return "";
     const chips = (arr) => (arr || []).map(t => `<span class="vchip">${t}</span>`).join("");
+    const CLUBS = window.PLM_CLUBS || {};
+    const clubBadge = (code) => {
+      const c = CLUBS[code]; if (!c) return "";
+      const n = c.c.length;
+      const bands = c.c.map((col, i) => `<rect x="${(i * 16 / n).toFixed(2)}" width="${(16 / n).toFixed(2)}" height="20" fill="${col}"/>`).join("");
+      return `<span class="vclub"><svg viewBox="0 0 16 20" class="vshield" aria-hidden="true">${bands}</svg>${c.n}</span>`;
+    };
     let rows = "";
     if (info.contexto) rows += `<div class="vrow"><span class="vlabel">Contexto</span><span class="vtext">${info.contexto}</span></div>`;
+    if (info.clubs && info.clubs.length) rows += `<div class="vrow"><span class="vlabel">Clubes</span><span class="vchips">${info.clubs.map(clubBadge).join("")}</span></div>`;
     if (info.temas && info.temas.length) rows += `<div class="vrow"><span class="vlabel">Temas</span><span class="vchips">${chips(info.temas)}</span></div>`;
     if (info.con && info.con.length) rows += `<div class="vrow"><span class="vlabel">Con</span><span class="vchips">${chips(info.con)}</span></div>`;
     if (info.invitados && info.invitados.length) rows += `<div class="vrow"><span class="vlabel">Invitados</span><span class="vchips">${chips(info.invitados)}</span></div>`;
@@ -307,6 +315,10 @@ function renderEvent(EVENT) {
       if (r.phase !== "Fase de grupos" && hasBracket) {
         extra += `<div class="bracket-wrap"><div class="bracket-h">Cuadro de eliminatorias</div>${bracket(it.iso)}</div>`;
       }
+      // Si el día no aporta tablas ni cuadro, su único contenido son los
+      // resultados —que ya se muestran al costado de la fecha (.dm-results)—,
+      // así que en pantalla ancha esta barra se oculta por completo.
+      if (!extra) bar.className += " res-only";
       bar.innerHTML = `<div class="daybar-head"><span class="daybar-date">${label}</span><span class="daybar-phase">${r.phase} · resultados del día</span></div><div class="daybar-res">${games}</div>` + extra;
       curGroup.appendChild(bar);
     } else {
@@ -314,6 +326,27 @@ function renderEvent(EVENT) {
       grid.appendChild(card(it.v[0], it.v[1], it.v[2], it.v[3], it.v[4]));
     }
   });
+
+  /* ---------- selector de vista: scroll (grande) / mosaico (chico) ----------
+     Solo tiene sentido si hay días con más de un video; si no, no se muestra. */
+  const multiPerDay = [...tl.querySelectorAll(".videos")].some(g => g.children.length > 1);
+  if (multiPerDay) {
+    const viewBar = document.createElement("div");
+    viewBar.className = "viewbar";
+    viewBar.innerHTML = `<span class="viewlabel">Vista</span>
+      <button class="viewbtn" data-view="scroll" aria-label="Vista en scroll">▤ Scroll</button>
+      <button class="viewbtn" data-view="mosaic" aria-label="Vista en mosaico">▦ Mosaico</button>`;
+    tl.parentNode.insertBefore(viewBar, tl);
+    const VKEY = "plm-view-" + (EVENT.id || "x");
+    function setView(v) {
+      tl.classList.toggle("mosaic", v === "mosaic");
+      viewBar.querySelectorAll(".viewbtn").forEach(b => b.classList.toggle("on", b.dataset.view === v));
+      try { localStorage.setItem(VKEY, v); } catch (e) {}
+    }
+    viewBar.querySelectorAll(".viewbtn").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
+    let savedV = "scroll"; try { savedV = localStorage.getItem(VKEY) || "scroll"; } catch (e) {}
+    setView(savedV);
+  }
 
   /* ---------- filtros por canal ---------- */
   const hiddenChips = new Set();
