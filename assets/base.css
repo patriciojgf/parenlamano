@@ -133,7 +133,11 @@
     border-radius:50%;background:var(--primary-deep);
     border:3px solid var(--accent);
   }
-  .stage.match::before{background:var(--secondary);border-color:#fff}
+  /* el nodo del partido coincidía con el de la fecha (dos círculos pisados).
+     Dejamos un solo nodo por día: ocultamos el del partido y, en los días de
+     partido del equipo de la casa, pintamos el de la fecha de celeste. */
+  .stage.match::before{display:none}
+  .daygroup:has(.stage.match) .datemark::before{background:var(--secondary);border-color:#fff}
 
   .stage-head{
     font-family:'Anton',sans-serif;font-size:1.35rem;letter-spacing:.04em;
