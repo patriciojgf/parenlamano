@@ -53,6 +53,7 @@ window.PLM_EVENT = (function () {
   return {
     id: "el-tribunero", meta, theme, categories,
     home: "", homeFlag: "", year: 2026, roundLabels: [],
+    guests: true,   // muestra la tira de invitados (caritas) debajo del hero
     data: DATA
   };
 })();

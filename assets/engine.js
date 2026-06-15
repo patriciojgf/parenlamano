@@ -61,6 +61,30 @@ function renderEvent(EVENT) {
     <p class="hero-sub">${meta.sub || ""}</p>
     <div class="hero-meta">${(meta.stats || []).map(s => `<span>${s}</span>`).join("")}</div>`;
 
+  /* ---------- tira de invitados (opt-in por evento: EVENT.guests) ----------
+     Junta los invitados de cada capítulo (desde PLM_VIDEOS) y muestra su carita
+     —la miniatura del capítulo— enlazada al video correspondiente. */
+  if (EVENT.guests) {
+    const VID = window.PLM_VIDEOS || {};
+    const guests = [];
+    (EVENT.data || []).forEach(st => (st.videos || []).forEach(v => {
+      const info = VID[v[0]];
+      (info && info.invitados || []).forEach(name => guests.push({ id: v[0], name }));
+    }));
+    if (guests.length) {
+      const strip = document.createElement("div");
+      strip.id = "guests"; strip.className = "guests";
+      strip.innerHTML = `<span class="guests-lbl">Invitados</span>` + guests.map(g => {
+        const q = g.name.replace(/"/g, "&quot;");
+        return `<button class="guest" data-goto="${g.id}" title="Ver el capítulo con ${q}">
+          <img class="guest-face" loading="lazy" src="https://i.ytimg.com/vi/${g.id}/hqdefault.jpg" alt="${q}">
+          <span class="guest-name">${g.name}</span>
+        </button>`;
+      }).join("");
+      hero.appendChild(strip);
+    }
+  }
+
   /* ---------- leyenda / filtros ---------- */
   const legend = document.getElementById("legend");
   legend.innerHTML = categories.map(c => {
@@ -439,6 +463,21 @@ function renderEvent(EVENT) {
     f.title = "Reproductor de YouTube";
     b.replaceWith(f);
   });
+
+  /* ---------- click en una carita de invitado -> ir a su capítulo ---------- */
+  const guestsEl = document.getElementById("guests");
+  if (guestsEl) {
+    guestsEl.addEventListener("click", e => {
+      const g = e.target.closest("[data-goto]");
+      if (!g) return;
+      const facade = tl.querySelector(`.facade[data-id="${g.dataset.goto}"]`);
+      const card = facade && facade.closest(".card");
+      const target = card || (facade && facade.closest(".daygroup"));
+      if (!target) return;
+      target.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (card) { card.classList.add("flash"); setTimeout(() => card.classList.remove("flash"), 1500); }
+    });
+  }
 
   /* ---------- selector de estilo ---------- */
   const opts = theme.options || [];
