@@ -304,8 +304,8 @@
     .timeline::before{left:176px}
     .daygroup{display:grid;grid-template-columns:160px 1fr;column-gap:48px}
     .daygroup>.datemark{
-      grid-column:1;align-self:start;
-      display:flex;flex-direction:column;gap:6px;align-items:flex-start;
+      grid-column:1;align-self:start;justify-self:end;
+      display:flex;flex-direction:column;gap:6px;align-items:stretch;
       margin:16px 0 0;
     }
     .daygroup>*:not(.datemark){grid-column:2}
@@ -313,7 +313,10 @@
     .stage::before{left:-39px}
     .videos::before{left:-39px}
     .daybar::before{left:-39px}
-    .dm-results{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
+    .dm-results{display:flex;flex-direction:column;gap:4px;align-items:stretch}
+    /* fecha + resultados: bloque uniforme pegado al riel (mismos anchos, alineados) */
+    .daygroup>.datemark .dm-pill{justify-content:center}
+    .daygroup>.datemark .dmr{justify-content:flex-start}
     /* los resultados ya se muestran al costado de la fecha: no repetirlos en la
        barra del día. Si la barra era solo resultados, se oculta entera; si tiene
        tablas/cuadro, queda solo eso (sin el encabezado de "resultados del día"). */
