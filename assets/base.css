@@ -299,7 +299,7 @@
   /* pantalla ancha: cada día es una grilla [columna fecha+resultados | contenido];
      la columna es sticky DENTRO de su día, así el día siguiente la empuja sin superponerse */
   @media(min-width:980px){
-    main{max-width:1072px}
+    main{max-width:min(1360px, 100% - 48px)}
     .timeline{padding-left:0}
     .timeline::before{left:176px}
     .daygroup{display:grid;grid-template-columns:160px 1fr;column-gap:48px}
@@ -412,7 +412,7 @@
     background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:999px;padding:.32em .85em}
   .viewbtn:hover,.viewbtn:focus-visible{border-color:var(--accent)}
   .viewbtn.on{background:var(--accent);color:var(--ink);border-color:var(--accent)}
-  @media(min-width:980px){ .viewbar{max-width:1072px} }
+  @media(min-width:980px){ .viewbar{max-width:min(1360px, 100% - 48px)} }
 
   /* modo mosaico: tarjetas compactas en grilla (varias por fila), día por día.
      Se mantiene la portada, el título, el chip de canal y el link a YouTube;
