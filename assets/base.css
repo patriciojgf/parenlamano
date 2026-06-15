@@ -305,7 +305,7 @@
     .daygroup{display:grid;grid-template-columns:160px 1fr;column-gap:48px}
     .daygroup>.datemark{
       grid-column:1;align-self:start;
-      display:flex;flex-direction:column;gap:6px;align-items:flex-end;
+      display:flex;flex-direction:column;gap:6px;align-items:flex-start;
       margin:16px 0 0;
     }
     .daygroup>*:not(.datemark){grid-column:2}
@@ -313,7 +313,7 @@
     .stage::before{left:-39px}
     .videos::before{left:-39px}
     .daybar::before{left:-39px}
-    .dm-results{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+    .dm-results{display:flex;flex-direction:column;gap:4px;align-items:flex-start}
     /* los resultados ya se muestran al costado de la fecha: no repetirlos en la
        barra del día. Si la barra era solo resultados, se oculta entera; si tiene
        tablas/cuadro, queda solo eso (sin el encabezado de "resultados del día"). */
