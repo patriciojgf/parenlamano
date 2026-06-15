@@ -312,6 +312,7 @@
     .datemark::before{left:auto;right:-40px;top:6px}
     .stage::before{left:-39px}
     .videos::before{left:-39px}
+    .daybar::before{left:-39px}
     .dm-results{display:flex;flex-direction:column;gap:4px;align-items:flex-end}
     /* los resultados ya se muestran al costado de la fecha: no repetirlos en la
        barra del día. Si la barra era solo resultados, se oculta entera; si tiene
@@ -439,7 +440,10 @@
     .card,.facade::after{transition:none}
     .card:hover{transform:none}
   }
-  @media(min-width:700px){
+  /* rango intermedio (tablet/laptop angosta): una sola columna, riel a la
+     izquierda. Acotado a <980px para no pisar el layout de 2 columnas de abajo,
+     que comparte propiedades (.timeline padding/::before) y va antes en el archivo. */
+  @media(min-width:700px) and (max-width:979.98px){
     .timeline{padding-left:48px}
     .timeline::before{left:16px}
     .stage::before{left:-39px}
