@@ -129,7 +129,7 @@
 
   .stage{position:relative;margin-bottom:14px}
   .stage::before{
-    content:"";position:absolute;left:-31px;top:14px;width:15px;height:15px;
+    content:"";position:absolute;left:-30px;top:14px;width:15px;height:15px;
     border-radius:50%;background:var(--primary-deep);
     border:3px solid var(--accent);
   }
@@ -222,7 +222,7 @@
     box-shadow:0 0 0 1px rgba(232,195,106,.12)}
   .daybar.final{border-left-color:var(--accent);background:linear-gradient(180deg,#262031,#181420)}
   .daybar::before{
-    content:"";position:absolute;left:-31px;top:14px;width:8px;height:8px;
+    content:"";position:absolute;left:-26.5px;top:14px;width:8px;height:8px;
     transform:rotate(45deg);background:var(--accent-soft);opacity:.7;
   }
   .daybar-head{
@@ -303,7 +303,7 @@
   .daygroup{position:relative}
   .datemark{position:sticky;top:10px;z-index:10;margin:16px 0 6px;pointer-events:none}
   .datemark::before{
-    content:"";position:absolute;left:-31px;top:5px;width:13px;height:13px;
+    content:"";position:absolute;left:-29px;top:5px;width:13px;height:13px;
     border-radius:50%;background:var(--primary-deep);border:3px solid var(--accent);
   }
   .datemark.approx::before{border-style:dashed;border-color:var(--accent-soft)}
@@ -484,9 +484,10 @@
   @media(min-width:700px) and (max-width:979.98px){
     .timeline{padding-left:48px}
     .timeline::before{left:16px}
-    .stage::before{left:-39px}
-    .datemark::before{left:-39px}
-    .daybar::before{left:-39px}
+    /* nodos centrados EXACTOS sobre el riel también en este rango (medido) */
+    .stage::before{left:-38px}
+    .datemark::before{left:-37px}
+    .daybar::before{left:-34.5px}
   }
 
   /* ---------- LINK A LA PORTADA ---------- */
