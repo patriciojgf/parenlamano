@@ -347,7 +347,10 @@
     .datemark::before{left:auto;right:-30px;top:6px}
     .stage::before{left:-38px}
     .videos::before{left:-37px}
-    .daybar::before{left:-34.5px}
+    /* en desktop la barra de resultados cae en la misma fila que la fecha (col 1
+       vs col 2), así que su rombo se pisaba con el círculo de la fecha: lo ocultamos
+       para dejar un solo nodo por día sobre el riel. */
+    .daybar::before{display:none}
     .dm-results{display:flex;flex-direction:column;gap:4px;align-items:stretch}
     /* fecha + resultados: bloque uniforme pegado al riel (mismos anchos, alineados) */
     .daygroup>.datemark .dm-pill{justify-content:center}
