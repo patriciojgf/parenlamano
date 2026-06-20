@@ -48,13 +48,13 @@ window.PLM_CATALOG = [
   },
   {
     id: "mundial-2026",
-    href: "mundial-2026/",
+    soon: true,
     eyebrow: "Mundial · FIFA",
     title: "Mundial 2026",
-    subtitle: "La cobertura de PLM del Mundial de Canadá, México y EE.UU.: programas en vivo desde suelo americano, vlogs y AFA Estudio, partido a partido.",
-    dateRange: "JUN → JUL 2026",
-    badge: "🔴 En vivo",
-    stats: ["En curso", "🇦🇷 Grupo J", "📍 EE.UU."],
+    subtitle: "Próximamente: la cobertura del próximo Mundial (Canadá, México y EE.UU.).",
+    dateRange: "2026",
+    badge: "Próximamente",
+    stats: [],
     theme: { primary: "#0E6B43", primaryDeep: "#063620", accent: "#F4C84B", secondary: "#4FB0E0" }
   }
 ];
