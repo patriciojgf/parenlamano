@@ -37,6 +37,7 @@ window.PLM_EVENT = (function () {
 
   const DATA = [
     {head:"La previa — desde Argentina",date:"Junio 2026",videos:[
+      ["ybCpADKASeU","Están arruinando el mundial? | PLM",VL,"MAR 9 JUN","Debate encendido todavía desde Argentina: ¿qué está pasando con la organización y el espectáculo del torneo?"],
       ["ISgG_zogN4E","El peor arranque de todos los mundiales? | #PLM 11/06",V,"JUE 11 JUN","El primer día del Mundial 2026: análisis del arranque polémico del torneo más grande de la historia, todavía desde el estudio en Argentina."],
     ]},
     {head:"Llegada a Estados Unidos",date:"12 al 15 de junio de 2026",videos:[
@@ -44,7 +45,6 @@ window.PLM_EVENT = (function () {
       ["UR3-mzydtm8","Pedos en el avión | #PLM",VL,"≈ 12 JUN","El vuelo a Estados Unidos con todos sus condimentos."],
       ["n5rzuhmZqCw","El primer día del mundial fue malísimo? | PLM",VL,"≈ 12 JUN","Llegada a suelo americano y primeras impresiones del arranque del torneo."],
       ["XTmiDHiCcyA","Estados Unidos no está preparado para nosotros... | PLM",VL,"≈ 13 JUN","El equipo se adapta al Mundial en tierra americana: estadios, fans y el ambiente mundialista."],
-      ["ybCpADKASeU","Están arruinando el mundial? | PLM",VL,"≈ 14 JUN","Debate encendido: ¿qué está pasando con la organización y el espectáculo del torneo?"],
       ["lLvdfzEatCI","Paren la Mano en AFA Estudio Mundial 2026",A,"≈ 15 JUN","Visita a AFA Estudio en la previa del debut de Argentina: la charla con el ambiente oficial."],
     ]},
     {head:"Fecha 1 · Fase de grupos",date:"Lunes 16/06/2026",match:{teams:"🇦🇷 Argentina — Argelia 🇩🇿",score:"3 · 0",note:"Arrowhead Stadium, Kansas City. Hat-trick de Messi: aparición #200 con la Selección y récord histórico."},videos:[
