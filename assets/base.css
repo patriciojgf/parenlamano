@@ -344,7 +344,7 @@
     }
     .daygroup>*:not(.datemark){grid-column:2}
     /* nodos/diamantes centrados EXACTOS sobre el riel (medido a ≥980px) */
-    .datemark::before{left:auto;right:-30px;top:6px}
+    .datemark::before{left:auto;right:-24px;top:6px}
     .stage::before{left:-38px}
     .videos::before{left:-37px}
     /* en desktop la barra de resultados cae en la misma fila que la fecha (col 1
